@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
   s.source_files  = "ios/*.{h,m}"
 
   s.dependency "React"
-  s.dependency "KSYMediaPlayer_iOS"
+  s.dependency "KSYMediaPlayer_iOS", :git => "https://github.com/ksvc/react-native-video-player", :commit => '4d0c30db5bd64a50da8b34482e293d987dd0467e'
 end
